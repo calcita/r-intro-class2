@@ -616,7 +616,7 @@ class: inverse, center, middle
 
 - La función `r text_spec2("summarise()")` o `r text_spec2("summarize()")` calcula un resumen de variables
 
-- summarise(`r text_spec2("<df>")`, `r text_spec2("<column>")` = `r text_spec2("<function>")`(`r text_spec2("<variable>")`)
+- summarise(`r text_spec2("<df>")`, `r text_spec2("<column>")` = `r text_spec2("<function>")`(`r text_spec2("<variable>")`))
 
 - El resultado será una data frame con una fila, a menos que los datos estén agrupados, y una columna por cada estadístico de resumen.
 
@@ -649,7 +649,7 @@ summarise(listado, promedio = mean(price), #<<
 
 ---
 class: inverse, center, middle
-# dplyr::summarise()
+# dplyr::count()
 
 ---
 # Cálculo frecuencias de una variable
